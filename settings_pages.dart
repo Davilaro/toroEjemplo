@@ -33,7 +33,7 @@ TextEditingController _textController;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      
         appBar: AppBar(title: Text('Ajustes')),
         drawer: MenuWidget(),
         body: ListView(
