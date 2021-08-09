@@ -17,6 +17,7 @@ bool _colorSecundaruio = true;
 int _genero = 1;
 String _nombre = 'Pedro';
 //soy un comentario nuevo
+//dasd
 //Variable para el campo de texto.
 TextEditingController _textController;
 
@@ -32,6 +33,7 @@ TextEditingController _textController;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
         appBar: AppBar(title: Text('Ajustes')),
         drawer: MenuWidget(),
         body: ListView(
