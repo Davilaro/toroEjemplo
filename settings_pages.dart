@@ -42,7 +42,7 @@ TextEditingController _textController;
               padding: EdgeInsets.all(5.0),
               child: Text('Settings', 
               style: TextStyle(
-                fontSize: 45.0, 
+                fontSize: 40.0, 
                 fontWeight: FontWeight.bold)
               ),
             ),
